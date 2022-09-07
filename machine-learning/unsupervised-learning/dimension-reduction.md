@@ -24,8 +24,8 @@ $$w = \arg \max_w \sum_{i=1}^{n} \left(w^T x_i\right)^2=\|X w\|_2^2=w^T X^T X w$
 
 $$
 \begin{aligned}
-w &=\arg \min _w \sum_{i=1}^n\left\|x_i-w w^T x_i\right\|^2 \quad \text { s.t. } \quad w^T w=1 \\
-&=\arg \min _w \sum_{i=1}^n x_i^T x_i-w^T \underbrace{\left(\sum_{i=1}^n x_i x_i^T\right)}_{=X X^T} w
+w &=\arg \min_w \sum_{i=1}^n\left\|x_i-w w^T x_i\right\|^2 \quad \text { s.t. } \quad w^T w=1 \\
+&=\arg \min_w \sum_{i=1}^n x_i^T x_i-w^T \underbrace{\left(\sum_{i=1}^n x_i x_i^T\right)}_{=X X^T} w
 \end{aligned}
 $$
 
