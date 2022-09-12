@@ -11,4 +11,10 @@ The mathematical form is:
 
 $$S(i,j) = (K*I)(i,j) = \sum_m \sum_n I(i+m, j+n)K(m,n)$$
 
-- Advantage of Convolution over Fully connected layer
+- CNN 计算公式
+- CNN 对 FCN(DNN) 的优点
+- 输出维度的计算
+- 参数量的计算
+- 感受野的计算
+
+$$r_l = r_{l-1} + (k_l - 1) \times j_{l-1}, \quad j_l = j_{l-1} \times s_l = \prod_{i=1}^{l} s_i$$
